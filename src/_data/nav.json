@@ -1,6 +1,9 @@
 [
   { "title": "Overview", "url": "/" },
+  { "title": "Coordination", "url": "/coordination/" },
   { "title": "Flight Planning", "url": "/flight-planning/" },
   { "title": "Drone Operators", "url": "/drone-operators/" },
-  { "title": "Quick Checklist", "url": "/quick-checklist/" }
+  { "title": "Data Handling", "url": "/data-handling/" },
+  { "title": "Quick Checklist", "url": "/quick-checklist/" },
+  { "title": "Glossary", "url": "/glossary/" }
 ]
