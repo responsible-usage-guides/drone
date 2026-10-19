@@ -10,6 +10,8 @@ description: Practical guidance for humanitarian and community drone mapping.
 
 _First draft - Oct 2026_
 
+DOI: [10.5281/zenodo.23482975](https://doi.org/10.5281/zenodo.23482975)
+
 ---
 
 ## Collaborators
