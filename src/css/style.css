@@ -226,6 +226,19 @@ footer {
   text-align: center;
 }
 
+.disclaimer { margin-bottom: 0.75rem; }
+
+/* ── Law Note ── */
+.law-note {
+  border-left: 3px solid #d97706;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.15rem;
+  background: #fffbeb;
+  border-radius: 0 6px 6px 0;
+}
+.law-note p:last-child { margin-bottom: 0; }
+.law-note .last-reviewed { font-size: 0.85rem; color: var(--color-muted); }
+
 /* ── Collaborator Logos ── */
 .collaborator-logos {
   display: flex;
@@ -280,7 +293,8 @@ footer {
 
 /* ── Print ── */
 @media print {
-  .site-header, .nav-toggle, footer { display: none; }
+  .site-header, .nav-toggle, footer > :not(.disclaimer) { display: none; }
+  footer { border-top: none; padding: 0.5rem 0 0; }
   main { padding: 0; max-width: 100%; }
   body { font-size: 10pt; line-height: 1.35; }
   h2 { break-after: avoid; margin-top: 1rem; }

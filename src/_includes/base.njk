@@ -45,6 +45,9 @@
   </main>
 
   <footer>
+    {%- if disclaimer.text %}
+    <p class="disclaimer">{{ disclaimer.text }}</p>
+    {%- endif %}
     <p>Released under consultation. Contributions and critique welcome.</p>
   </footer>
 
