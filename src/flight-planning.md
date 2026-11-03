@@ -90,19 +90,19 @@ If a large area is split into several flights, they should all be flown at the s
 
 To build a map, processing software stitches many photos together by finding the same features in neighbouring photos. So each photo needs to **overlap** with the ones around it, both along the flight line ("front" overlap) and between flight lines ("side" overlap).
 
-| What you need                         | Front overlap | Side overlap |
-| :------------------------------------ | :------------ | :----------- |
-| A flat map (2D orthomosaic) only      | at least 70%  | at least 70% |
-| 3D outputs (elevation models, meshes) | around 85%    | around 85%   |
+| Situation                                    | Front | Side |
+| :------------------------------------------- | :---- | :--- |
+| Most 2D maps (default)                       | 80%   | 70%  |
+| Windy, and the flight can't be postponed     | 85%   | 75%  |
+| Dense buildings, or flying below ~100 m      | 85%   | 75%  |
+| Crops, sand, snow, or bare ground            | 80%   | 80%  |
+| Trees or dense vegetation                    | 85%   | 85%  |
+| 3D outputs (elevation models, meshes)        | 85%   | 85%  |
+| Single flight line along a road or river     | 85%   | -    |
 
-These are starting points for straightforward sites flown at around 100-120 m. More overlap can improve results, but means longer flights and more photos.
+If several apply, use the highest. Never go below 70%.
 
-The terrain makes a big difference. Some surfaces need extra overlap (80% or more) because the software struggles to match photos:
-
-- **Trees and forest canopy**, where leaves look alike and move in the wind;
-- **Sand, snow, and bare fields**, which look the same everywhere;
-- **Water**, which reflects and changes from one photo to the next;
-- **Dense buildings**, and flights at lower altitude.
+Having more overlap means a longer flight time and processing, so ideally don't go higher than you need.
 
 For camera angle, point the camera nearly straight down, at about **80 degrees** rather than a full 90. A slight tilt gives the processing software more to work with, and produces noticeably better 3D reconstruction (and so a better final map).
 

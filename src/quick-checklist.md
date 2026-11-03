@@ -30,7 +30,7 @@ The list below covers the wider steps, from coordination and permissions through
 - Firmware and apps updated
 - Batteries charged, with spares for the planned area
 - Memory card inserted (U3 or faster) and tested
-- Flight plan ready: altitude, at least 70% overlap (more for trees, sand, or water), camera at ~80°, flying across the wind
+- Flight plan ready: altitude, 80% front / 70% side overlap (more in wind, or over trees, sand, or buildings), camera at ~80°, flying across the wind
 
 ## On site
 
